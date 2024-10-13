@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D6CBAF72CBB99BC00514D35 /* Tribal Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tribal Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6CBB072CBB99BF00514D35 /* Tribal ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tribal ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6CBB112CBB99BF00514D35 /* Tribal ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tribal ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F18EA2CBC501E00079F53 /* Tribal Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tribal Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F18EB2CBC501E00079F53 /* Tribal ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tribal ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F18EC2CBC501E00079F53 /* Tribal ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tribal ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +78,10 @@
 				4D6CBAF92CBB99BC00514D35 /* Tribal Schedule */,
 				4D6CBB0A2CBB99BF00514D35 /* Tribal ScheduleTests */,
 				4D6CBB142CBB99BF00514D35 /* Tribal ScheduleUITests */,
-				4D6CBAF82CBB99BC00514D35 /* Products */,
+				4D3F18EA2CBC501E00079F53 /* Tribal Schedule.app */,
+				4D3F18EB2CBC501E00079F53 /* Tribal ScheduleTests.xctest */,
+				4D3F18EC2CBC501E00079F53 /* Tribal ScheduleUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		4D6CBAF82CBB99BC00514D35 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D6CBAF72CBB99BC00514D35 /* Tribal Schedule.app */,
-				4D6CBB072CBB99BF00514D35 /* Tribal ScheduleTests.xctest */,
-				4D6CBB112CBB99BF00514D35 /* Tribal ScheduleUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +106,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Tribal Schedule";
-			productReference = 4D6CBAF72CBB99BC00514D35 /* Tribal Schedule.app */;
+			productReference = 4D3F18EA2CBC501E00079F53 /* Tribal Schedule.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4D6CBB062CBB99BF00514D35 /* Tribal ScheduleTests */ = {
@@ -137,7 +129,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Tribal ScheduleTests";
-			productReference = 4D6CBB072CBB99BF00514D35 /* Tribal ScheduleTests.xctest */;
+			productReference = 4D3F18EB2CBC501E00079F53 /* Tribal ScheduleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4D6CBB102CBB99BF00514D35 /* Tribal ScheduleUITests */ = {
@@ -160,7 +152,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Tribal ScheduleUITests";
-			productReference = 4D6CBB112CBB99BF00514D35 /* Tribal ScheduleUITests.xctest */;
+			productReference = 4D3F18EC2CBC501E00079F53 /* Tribal ScheduleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +188,7 @@
 			mainGroup = 4D6CBAEE2CBB99BC00514D35;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4D6CBAF82CBB99BC00514D35 /* Products */;
+			productRefGroup = 4D6CBAEE2CBB99BC00514D35;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -404,6 +396,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +426,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
